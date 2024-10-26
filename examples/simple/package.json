@@ -1,0 +1,8 @@
+{
+  "name": "celeron-simple-app",
+  "version": "1.0.0",
+  "description": "simple celeron app",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true
+}
