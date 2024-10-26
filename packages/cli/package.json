@@ -1,0 +1,38 @@
+{
+  "name": "@celeron/cli",
+  "version": "0.1.0",
+  "description": "CLI tools for Celeron framework",
+  "bin": {
+    "celeron": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist",
+    "templates",
+    "README.md"
+  ],
+  "keywords": [
+    "celeron",
+    "cli",
+    "framework",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/haterb4/celeron.git",
+    "directory": "packages/cli"
+  },
+  "peerDependencies": {
+    "@celeron/core": "^0.1.0"
+  },
+  "author": "haterb4 haterb2803@gmail.com",
+  "license": "MIT"
+}
